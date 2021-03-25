@@ -1,8 +1,8 @@
 # MITgcm_flt_Rousselet2020
 
 **Content:** This repository provides tools to reproduce the Lagrangian experiment conducted in Rousselet et al. (2020). It includes:
-- build/ containing FLT code (*.F)
-- code_flt_offline/ containing compile time options / settings  
+- build/ containing FLT code (*.F).
+- code_flt_offline/ containing compile time options / settings. 
 - tools/ containing pre- and post-processing matlab tools to prepare experiment inputs and analyze outputs.
 
 **Author:** `lrousselet@ucsd.edu`
@@ -13,7 +13,7 @@ This README also provides user directions to set up FLT package:
 
 **1)** [Download the setup following the instructions 2.2](https://eccov4.readthedocs.io/en/latest/downloads.html).
 
-**2)** Go to `MITgcm/mysetups/ECCOv4/` and download MITgcm_flt as follows:
+**2)** Go to `MITgcm/mysetups/ECCOv4/` and download `MITgcm_flt` as follows:
 ```
 cd MITgcm/mysetups/ECCOv4/
 git clone https://github.com/gaelforget/MITgcm_flt
