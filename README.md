@@ -19,10 +19,10 @@ cd MITgcm/mysetups/ECCOv4/
 git clone https://github.com/gaelforget/MITgcm_flt
 ```
 
-**3)** Copy `build/` and `code_flt_offline/` in `MITgcm/mysetups/ECCOv4/`.
+**3)** Copy `build/` and `code_flt_offline/`:
 ```
 git clone https://github.com/lourousselet/MITgcm_flt_Rousselet2020
-mv MITgcm_flt_Rousselet2020/build MITgcm/mysetups/ECCOv4/
+cp MITgcm_flt_Rousselet2020/build/* MITgcm/mysetups/ECCOv4/build/
 mv MITgcm_flt_Rousselet2020/code_flt_offline MITgcm/mysetups/ECCOv4/
 ```
 
